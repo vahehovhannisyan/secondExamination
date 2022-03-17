@@ -1,5 +1,8 @@
 
-
+/**
+ * 
+ * @returns 
+ */
 function squareMatrix () {
 
     let rand = function () {
