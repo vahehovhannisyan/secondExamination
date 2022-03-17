@@ -1,8 +1,4 @@
 
-/**
- * 
- * @returns 
- */
 function squareMatrix () {
 
     let rand = function () {
@@ -25,12 +21,6 @@ function squareMatrix () {
 
 
 
-
-/**
- * 
- * @param {*} n 
- * @returns 
- */
 function matrix(n) {
     let result = new Array(n).fill().map(() => new Array(n).fill('')); // create empty n x n array
     let counter = 1;
