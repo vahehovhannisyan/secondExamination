@@ -1,26 +1,26 @@
 
 
-// function squareMatrix () {
+function squareMatrix () {
 
-//     let rand = function () {
-//         return Math.ceil(Math.random()*9)
-//     };
+    let rand = function () {
+        return Math.ceil(Math.random()*9)
+    };
     
-//     let number = +prompt("enter number to print matrix");
-//     let str = "";
+    let number = +prompt("enter number to print matrix");
+    let str = "";
 
-//     for(let i=0; i<number; i++){
+    for(let i=0; i<number; i++){
 
-//         for(let j=0; j<number; j++){   
-//             str+= `${rand()}  `    
-//         };
+        for(let j=0; j<number; j++){   
+            str+= `${rand()}  `    
+        };
 
-//         str+="\n"+"\n";
-//     };
-//     console.log(str)
-// };
+        str+="\n"+"\n";
+    };
+    return str
+};
 
-// squareMatrix();
+
 
 
 
@@ -63,7 +63,7 @@ function matrix(n) {
 
 }
 
-console.log(matrix(5))
+
 
 
 
